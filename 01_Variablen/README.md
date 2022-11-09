@@ -8,6 +8,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
 
 
+
+
 ### Zuordnung | Assignment
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment
 - https://www.w3schools.com/js/js_assignment.asp
