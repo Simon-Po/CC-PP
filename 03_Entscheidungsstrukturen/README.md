@@ -9,3 +9,4 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
 
+![](else-if.png)

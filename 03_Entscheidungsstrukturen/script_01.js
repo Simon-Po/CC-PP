@@ -7,12 +7,12 @@ const ageJohn = 30;
 const ageMark = 30;
 
 // Deklaration
-let isJohnOlder, isJohnEqual;
+// let isJohnOlder, isJohnEqual;
 
-// Test | Logische Aussage
+// // Test | Logische Aussage
 
-isJohnOlder = (ageJohn > ageMark);
-isJohnEqual = (ageJohn == ageMark);
+// isJohnOlder = (ageJohn > ageMark);
+// isJohnEqual = (ageJohn == ageMark);
 
 // Ausgabe
 // console.log("ageJohn: " + ageJohn);
@@ -22,15 +22,17 @@ isJohnEqual = (ageJohn == ageMark);
 // console.log("------------------");
 
 
-if(ageJohn>ageMark)
+// if(ageJohn>ageMark)
+// {
+//     console.log("John ist älter.");
+// }
+
+
+if (ageJohn > ageMark) 
 {
     console.log("John ist älter.");
+} 
+else 
+{
+    console.log("John ist jünger.");
 }
-
-
-
-
-
-
-
-
