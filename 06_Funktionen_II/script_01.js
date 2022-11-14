@@ -1,9 +1,9 @@
 
 /*** Rechner */
 /*
-0. a+b / a-b/ a*b / a/b  // ergebnis c 
+0. a+b / a-b/ a*b / a/b  // Ergebnis c 
 1. Dateneingabe + -überprüfung :
-2. Auswahl Rechenart : 
+2. Auswahl Rechenart : check!
 3. Fkt. Grundrechenarten : check!
 4. Ausgabe in Konsole : check!
 */
@@ -13,7 +13,7 @@
 // Module calculator test:
 // agreement : "+","-","*",":"
 
-out(calculator(2,2,"/"))
+out(calculator(2,0,"/"))
 
 function calculator(a,b,op) {
 
@@ -42,7 +42,7 @@ function calculator(a,b,op) {
 // out(div(2,0));
 // out(div(0,2));
 function div(a,b) {
-    return (b != 0) ? a / b : "Error: Division by zero";
+    return (b != 0) ? a / b : " Division by zero";
 }
 
 //module: multi returns in a * b test:
@@ -71,5 +71,12 @@ function add(a,b) {
 
 // module: console output
 function out(outputData) {
-    console.log(outputData);
+
+    if (typeof outputData == "number") {
+        console.log("The result is: " + outputData)
+    } else {
+        console.error("ERROR: " + outputData)
+    }
+
+
 } 
