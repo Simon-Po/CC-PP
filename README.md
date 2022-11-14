@@ -12,6 +12,7 @@
     - [Datentypen | Primitives](#datentypen--primitives)
     - [if-else | if-else if](#if-else--if-else-if)
     - [switch | case](#switch--case)
+    - [Funktionen](#funktionen)
 
 ------
 Links: 
@@ -43,3 +44,6 @@ Links:
 ### switch | case
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
+### Funktionen
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
