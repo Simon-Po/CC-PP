@@ -9,13 +9,13 @@
 */
 
 
-
-
-
-
-
-
-
+// module sub returns int a - b test:
+// out(sub(2,3));
+// out(sub(7,-3));
+// out(sub(2,0));
+function sub(a,b) {
+    return a - b;
+}
 
 // returns a+b as an int test:
 // out(add(35,34));
