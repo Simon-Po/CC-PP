@@ -13,8 +13,23 @@
 // Module calculator test:
 // agreement : "+","-","*",":"
 
-out(calculator(2,0,"/"))
+startApp()
 
+//start the application
+
+function startApp() {
+    out(calculator(getNumber(1),getNumber(2),getOp()));
+}
+
+function getNumber(num){
+    return Number(prompt(`Number ${num}: `))
+}
+
+function getOp(){
+    return prompt("Op?: ")
+}
+
+//module calculator uses switch to assign opperants to the right func
 function calculator(a,b,op) {
 
     switch (op) {
@@ -33,8 +48,6 @@ function calculator(a,b,op) {
 
 
 }
-
-
 
 //module div returns a / b test:
 // out(div(2,3));
