@@ -4,19 +4,43 @@
 0. a+b / a-b/ a*b / a/b  // ergebnis c 
 1. Dateneingabe + -überprüfung :
 2. Auswahl Rechenart : 
-3. Fkt. Grundrechenarten :
-4. Ausgabe in Konsole :
+3. Fkt. Grundrechenarten : check!
+4. Ausgabe in Konsole : check!
 */
 
 
 
+// Module calculator test:
+// agreement : "+","-","*",":"
+
+out(calculator(2,2,"/"))
+
+function calculator(a,b,op) {
+
+    switch (op) {
+        case "+": // Addition 
+            return add(a,b);
+        case "-": // Subtraction
+            return sub(a,b);
+        case "*": // Multiplication
+            return multi(a,b);
+        case ":": // Division            
+        case "/": // Division
+            return div(a,b);   
+        default:    // Default case throw ERROR
+            return "Something went wrong!";
+    }
+
+
+}
+
 
 
 //module div returns a / b test:
-out(div(2,3));
-out(div(7,-3));
-out(div(2,0));
-out(div(0,2));
+// out(div(2,3));
+// out(div(7,-3));
+// out(div(2,0));
+// out(div(0,2));
 function div(a,b) {
     return (b != 0) ? a / b : "Error: Division by zero";
 }
@@ -48,4 +72,4 @@ function add(a,b) {
 // module: console output
 function out(outputData) {
     console.log(outputData);
-}
+} 
