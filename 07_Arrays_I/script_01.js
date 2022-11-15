@@ -8,15 +8,15 @@
 //out(getSentence("ich","bin","max","mütze")); 
 out(getSentence("ich","bin","der","coole","max","mütze"));
 function getSentence(word1,word2,word3,word4,word5,word6) {
-    const gap   = " ";
-    const punkt = ".";
-    let str     =  word1 + gap + 
-                   word2 + gap +
-                   word3 + gap +
-                   word4 + gap +
-                   word5 + gap + 
+    const GAP   = " ";
+    const PUNKT = ".";
+    let str     =  word1 + GAP + 
+                   word2 + GAP +
+                   word3 + GAP +
+                   word4 + GAP +
+                   word5 + GAP + 
                    word6 + 
-                   punkt;
+                   PUNKT;
 
 
 
