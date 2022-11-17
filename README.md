@@ -63,7 +63,7 @@ Links:
 - Ein Stack ist ein Geordneter stapel 
 - *Ein um 90 grad gedrehtes array*
   
-![](bilder/stack1.pngstack1.png)
+![](bilder/stack1.png)
 
 - Auf einen Stack kann gepusht werden *JS .push()*
 - Es kann auch gepopt werden *JS .pop()*
