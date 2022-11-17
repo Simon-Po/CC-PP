@@ -18,23 +18,27 @@ output(getSentence(["Ich","bin"],"E"));
 output(getSentence(["Ich","hätt","gern","die","Platt","von","dene","zwei","diwodaso","Spass","mache,"," habbe","Sie","die"],"Q"));
 
 
-function output(p) {
-    console.log(p);
+function output(o) {
+    console.log(o);
 }
 
 
-function getSentence(arr,letter) {
+function getSentence(arr,char) 
+{
+
     let out = "";
-    
     for (let i = 0; i < arr.length ; i++) {
-        if (i != arr.length -1){
-            out = out + arr[i] + " ";
-        }else {
+        if (i != arr.length -1 )
+        {
+            out = out + arr[i].trim() + " ";
+        }else 
+        {
             out = out + arr[i];
         }
 
     }
-    switch (letter) {
+    switch (char) 
+    {
         case "S":
             out = out + ".";
             break;
