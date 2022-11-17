@@ -46,7 +46,7 @@ function getSentenceArr(arr) {
         str = str +  arr[i] + GAP;
         
     }
-    return str+ PUNKT
+    return str + PUNKT
 }
 
 
