@@ -16,6 +16,7 @@
     - [Arrays:](#arrays)
     - [for-Schleifen](#for-schleifen)
     - [Stacks](#stacks)
+    - [Objekte in JS:](#objekte-in-js)
 
 ------
 Links: 
@@ -67,3 +68,8 @@ Links:
 
 - Auf einen Stack kann gepusht werden *JS .push()*
 - Es kann auch gepopt werden *JS .pop()*
+
+
+### Objekte in JS:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+- https://www.w3schools.com/js/js_objects.asp

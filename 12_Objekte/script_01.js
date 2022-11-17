@@ -28,6 +28,50 @@
 
 
 
+let person = {
+
+
+                firstName: "Simon",
+                familyName: "Pohl",
+                salary: [120000,160000],
+                permission:true,
+                sayHello:
+                        function(){
+                                return "Hi, ich bin " + this.firstName
+                        }
+
+}
+
+
+// output(person);
+// output(person.sayHello());
+
+
+// ---------Hierarchie--------------
+
+
+const baikal = {
+                value:"10m",
+                deep:{
+                        deeper: {
+                                deepest: "Das Licht - auf 1642m!"
+                        }
+                }
+
+
+        }
+
+output(baikal.value);
+output(baikal.deep.deeper.deepest);
+
+
+
+
+
+
+
+
+
 /** Ausgabe */
 function output(outputData) {
         console.log(outputData);
