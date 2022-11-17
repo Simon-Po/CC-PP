@@ -15,6 +15,7 @@
     - [Funktionen](#funktionen)
     - [Arrays:](#arrays)
     - [for-Schleifen](#for-schleifen)
+    - [Stacks](#stacks)
 
 ------
 Links: 
@@ -57,3 +58,12 @@ Links:
 ### for-Schleifen
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 - https://www.w3schools.com/js/js_loop_for.asp
+
+### Stacks
+- Ein Stack ist ein Geordneter stapel 
+- *Ein um 90 grad gedrehtes array*
+  
+![](bilder/stack1.pngstack1.png)
+
+- Auf einen Stack kann gepusht werden *JS .push()*
+- Es kann auch gepopt werden *JS .pop()*

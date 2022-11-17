@@ -2,25 +2,25 @@
 
 // push() / pop()
 // push --> Daten rein ... (+)
-// let arr = [];
-// output(arr);
-// arr.push("Ich");
-// output(arr);
-// arr.push("bin");
-// output(arr);
-// arr.push("Max");
-// output(arr);
+let arr = [];
+output(arr);
+arr.push("Ich");
+output(arr);
+arr.push("bin");
+output(arr);
+arr.push("Max");
+output(arr);
 
 // output(arr[arr.length-1]);
 
 // pop() --> Daten raus ... (-)
 
-// output(arr.pop());
-// output(arr);
-// output(arr.pop());
-// output(arr);
-// output(arr.pop());
-// output(arr);
+output(arr.pop());
+output(arr);
+output(arr.pop());
+output(arr);
+output(arr.pop());
+output(arr);
 
 /*
 Aufgabe:
@@ -43,7 +43,7 @@ const tags = [  "html","head","head","body",
 let stack = [];
 
 // Modul: HTML-Synthese | Test
-output(getHTML());
+// output(getHTML());
 function getHTML() {
 
     let htmlStr = "";
@@ -78,7 +78,7 @@ function isOpenElement(tag) {
      
 }
 
-// Modul: Zusammenbau der Elements: <tagStr> --> Tests:
+//Modul: Zusammenbau der Elements: <tagStr> --> Tests:
 // output(getElement(tags[1],"open"));
 // output(getElement(tags[1],"close"));
 // output(getElement(tags[1]));
@@ -91,12 +91,12 @@ function getElement(tag,op) {
             // return controls[1] + tag + controls[2];
             return cobj.close_o + tag + cobj.close;
         default:
-          return "#!?";
+          console.error("Error: no tag defined");
     }
 }
 
 // Modul: Ausgabe | Test
 //output("hi");
-function output(inputData) {
-    console.log(inputData);
+function output(outputData) {
+    console.log(outputData);
 }
